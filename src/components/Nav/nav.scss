@@ -1,0 +1,128 @@
+@import "../variables";
+@import "../normalize.scss";
+
+.container {
+    max-width: 144rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.nav {
+    padding: 4.4rem 12rem;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+
+    &--menu {
+        visibility: hidden;
+    }
+
+    a {
+        text-decoration: none;
+    }
+    &--logo {
+        height: 8.1rem;
+        
+    }
+    &--links {
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        &--item {
+            color: $heading-color;
+            list-style: none;
+            margin-left: 5.3rem;
+        }
+
+        &--button {
+            list-style: none;
+            margin-left: 5.3rem;
+            padding: 2.2rem 3.2rem;
+            background-color: $button-color;
+            color: white;
+            border-radius: .5rem;
+            font-weight: bold;
+        }
+    }
+    &--links--item {
+        color: $heading-color;
+        list-style: none;
+        margin-left: 5.3rem;
+    }
+    .home {
+        font-weight: 700;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .nav {
+        padding: 4.4rem 8rem;
+
+        .margin-fix {
+            margin-top: -6rem;
+        }
+
+        .x-btn {
+            text-align: center;
+            background: white;
+            color: black;
+            padding: 2rem 2.8rem;
+            margin-top: 4rem;
+            margin-bottom: 12rem;
+        }
+
+        &--overlay {
+            background: black;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1000;
+            opacity: 0.95;
+            height: 57.5rem;
+            p {
+                color: white;
+                text-align: center;
+                font-size: 4rem;
+                margin-bottom: 6rem;
+                margin-top: 0;
+
+            }
+
+            &-btn {
+                background: $button-color;
+                padding: 2rem;
+            }
+        }
+
+        &--menu {
+            visibility: visible;
+        }
+
+        &--links {
+            visibility: hidden;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        margin: 0;
+    }
+    .nav {  
+        padding: 2rem;
+        align-items: center;
+        &--menu {
+            visibility: visible;
+        }
+    
+        &--links {
+            display: none;
+        }
+    }
+
+}

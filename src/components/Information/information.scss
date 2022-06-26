@@ -1,0 +1,113 @@
+@import "../normalize.scss";
+@import "../variables";
+
+.information {
+    overflow: hidden;
+
+    &--image {
+        height: auto;
+        // height: auto;
+        &--picture {
+            width: 100%;
+            background: url(../../images/CroppedImage.jpg);
+            height: 42.6rem;
+            overflow-x: hidden;
+            // height: fit-content;
+            background-size: cover;
+            background-position-y: 50%;
+        }
+    }
+
+
+    &--grid {
+        padding: 7.8rem 11.2rem;
+        display: grid;
+        grid-template-columns: 1fr .1fr 1fr .1fr 1fr;
+        justify-content: center;
+        column-gap: 2rem;
+
+        .divider {
+            height: 32rem;
+            border-left: .1rem solid #AFA190;
+            justify-self: center;
+        }
+
+
+        &--tile {
+            text-align: center;
+
+            // &--middle {
+            //     border-left: ;
+            // }
+
+            // .bitch-tile {
+            
+            // }
+
+
+            h2 {
+                color: $heading-color;
+                font-weight: 700;
+                font-size: 3.5rem;
+                
+            }
+
+            span {
+                color: $heading-color;
+                font-size: 1.8rem;
+                font-weight: bold;
+            }
+
+            p {
+                color: #4E4E4E;
+                font-size: 1.8rem;
+                margin-top: .4rem;
+                margin-bottom: 3.5rem;
+                line-height: 2.8rem;
+            }
+        }
+
+
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .information {
+        h2 {
+            font-size: 2.5rem;
+        }
+    }
+}
+
+
+@media screen and (max-width: 428px) {
+    .information {
+        .divider {
+            display: none;
+        }
+
+        &--grid {
+            grid-template-columns: 1fr;
+            grid-template-rows: .6fr 1fr 1fr;
+            padding: 2.6rem;
+
+            &--tile {
+                align-self: center;
+            }
+        }
+
+        // .margin-modifier {
+        //     margin-bottom: -12rem;
+        // }
+
+        &--image {
+            height: 27.6rem;
+            
+            
+            &--picture {
+                background-size: 90rem;
+                background-position: -5rem -1rem;
+            }
+        }
+    }
+}

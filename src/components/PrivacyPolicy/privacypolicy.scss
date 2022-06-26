@@ -1,0 +1,67 @@
+@import "../normalize.scss";
+@import "../variables";
+
+
+.privacy--policy {
+    padding: 10.9rem 28rem;
+    line-height: 3.2rem;
+    position: relative;
+    z-index: -1;
+    h2 {
+        color: $heading-color;
+        font-size: 6rem;
+        margin-bottom: 10rem;
+        white-space: nowrap;
+    }
+
+    h3 {
+        font-size: 2.2rem;
+        text-decoration: underline;
+    }
+
+    p {
+        font-size: 2rem;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .privacy--policy {
+        padding: 10.9rem 8rem;
+
+        h2 {
+            font-size: 3rem;
+            text-align: center;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .privacy--policy {
+        padding: 10.9rem 2rem;
+
+        h2 {
+            font-size: 2.4rem;
+        }
+
+        h3 {
+            font-size: 1.9rem;
+        }
+
+        p {
+            font-size: 1.6rem;
+        }
+    } 
+
+    
+    
+}

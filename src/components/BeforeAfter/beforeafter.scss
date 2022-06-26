@@ -1,0 +1,193 @@
+@import "../normalize.scss";
+@import "../variables";
+
+
+
+.before-after {
+    background: url(../../images/white-wall.jpg);
+    position: relative;
+
+    .container {
+        padding: 18rem 12rem 15.5rem 12rem;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(0deg, rgba(219, 207, 192, 0.6), rgba(219, 207, 192, 0.6));
+    }
+
+    &--title {
+        font-size: 4rem;
+        font-weight: bold;
+        margin: 0;
+        margin-bottom: 11rem;
+        color: $heading-color;
+        font-family: 'Volkhov', serif;
+        position: relative;
+    }
+
+    &--grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        column-gap: 4.3rem;
+        row-gap: 15.1rem;
+        box-sizing: border-box;
+    }
+
+    &--arrow {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 13%;
+        transform: translateY(-56rem);
+    }
+
+    .grid-picture {
+        width: 37rem;
+        height: 46.3rem;
+        border-radius: .3rem;
+        // -webkit-box-shadow: inset 0px 80px 5px 0px rgba(0,0,0,0.75);
+        // -moz-box-shadow: inset 0px 80px 5px 0px rgba(0,0,0,0.75);
+        // box-shadow:inset 0px 80px 5px 0px rgba(0,0,0,0.75);
+        position: relative;
+        justify-self: center;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        box-sizing: border-box;
+        &::before {
+            content: "Before";
+            background: linear-gradient(179.79deg, rgba(0, 0, 0, 0.5) 0.19%, rgba(0, 0, 0, 0) 23.21%);
+            padding-bottom: 22rem;
+            padding-top: 2rem;
+            font-size: 2.5rem;
+            font-weight: bold;
+            z-index: 5;
+            position: absolute;
+            width: 100%;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            padding-left: 2rem;
+            box-sizing: border-box;
+            border-radius: .3rem;
+        }
+        
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: .3rem;
+            box-sizing: border-box;
+        }
+    }
+
+    .grid-picture2 {
+        width: 37.2rem;
+        height: 46.3rem;
+        border-radius: .3rem;
+        justify-self: center;
+        position: relative;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        &::before {
+            content: "After";
+            background: linear-gradient(179.79deg, rgba(0, 0, 0, 0.5) 0.19%, rgba(0, 0, 0, 0) 23.21%);
+            padding-bottom: 22rem;
+            padding-top: 2rem;
+            font-size: 2.5rem;
+            font-weight: bold;
+            z-index: 5;
+            position: absolute;
+            width: 100%;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            padding-left: 2rem;
+            box-sizing: border-box;
+            border-radius: .3rem;
+        }
+        
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: .3rem;
+            box-sizing: border-box;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .before-after {
+
+        .container {
+            padding-left: 8rem;
+            padding-right: 8rem;
+        }
+
+        &--grid {
+            column-gap: 3.3rem;
+            row-gap: 10.7rem;
+        }
+        .grid-picture {
+            width: 26rem;
+            height: 32.8rem;
+        }
+        .grid-picture2 {
+            width: 26rem;
+            height: 32.8rem;
+        }
+        &--arrow {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 13%;
+            transform: translateY(-41rem);
+        }
+}
+}
+
+@media screen and (max-width: 910px) {
+    .before-after {
+        &--grid {
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(6, 1fr);
+        }
+    }
+}
+
+
+@media screen and (max-width: 910px) {
+    .before-after {
+
+        .container {
+            padding: 18rem 2rem 15.5rem 2rem;
+        }
+
+        &--title {
+            text-align: center;
+        }
+
+        .one {
+            grid-row: 1;
+        }
+
+        .two {
+            grid-row: 2;
+        }
+
+        .three {
+            grid-row: 3;
+        }
+
+        .four {
+            grid-row: 4;
+        }
+
+        &--arrow {
+            display: none;
+        }
+    }
+}

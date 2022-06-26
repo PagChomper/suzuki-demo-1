@@ -1,0 +1,114 @@
+@import "../normalize.scss";
+@import "../variables";
+
+.about {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: url(../../images/black-wall.jpg);
+    padding: 0 12rem 18rem 12rem;
+
+    &--title {
+        text-align: center;
+        color: white;
+        font-size: 5rem;
+        font-weight: 700;
+        margin-top: 9.5rem;
+        margin-bottom: 7.8rem;
+    }
+    &--card {
+        display: grid;
+        background: #E7E7E7;
+        grid-template-columns: 2fr 1.4fr;
+        height: 45.4rem;
+
+
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+
+    &--image {
+        background: url(../../images/about-image.JPG);
+        width: auto;
+        height: auto;
+        background-size: cover;
+        border-radius: 0 .5rem .5rem 0;
+    }
+
+    &--information {
+        padding: 3.8rem 6.4rem 0 4.7rem;
+
+        h2 {
+            font-size: 2.5rem;
+            margin-top:0 ;
+        }
+
+        p {
+            font-size: 1.7rem;
+            line-height: 2.6rem;
+            margin-top: 2.4rem;
+        }
+        .margin-silence {
+            margin-top: 0;
+        }
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .about {
+        padding: 0 8rem 15.3rem 8rem;
+
+        &--card {
+            height: 52rem;
+            box-sizing: border-box;
+        }
+
+        &--image {
+            background-position: -5rem;
+            background-size: 52rem;
+        }
+
+        &--information {
+            padding: 3.8rem 4.2rem 0 4.7rem;
+            p {
+                font-size: 1.6rem;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .about {
+        padding: 0 2rem 0rem 2rem;
+
+
+        &--card {
+            grid-template-rows: 1fr 2fr;
+            grid-template-columns: 1fr;
+            height: auto;
+            margin-bottom: 10.2rem;
+        }
+
+        &--image {
+            height: 28.2rem;
+            grid-row: 1;
+            border-radius: .5rem .5rem 0 0;
+        }
+
+        &--information {
+            padding: 2rem 3.8rem 2.2rem 3.8rem;
+            
+
+            h2 {
+                text-align: center;
+            }
+            p {
+                text-align: center;
+                font-size: 1.4rem;
+            }
+        }
+    }
+}
