@@ -319,8 +319,34 @@
         }
     }
 
+    @media screen and (max-width: 710px) {
+        .hero {
 
-    @media screen and (max-width: 350px) {
+            &--title {
+                font-size: 11rem;
+            }
+
+            &-text-container {
+                top: 70vw;
+            }
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        .hero {
+            &--title {
+                font-size: 5rem;
+            }
+
+            &-text-container {
+                transform: translateY(-5rem);
+                z-index: 500;
+            }
+        }
+    }
+
+
+    @media screen and (max-width: 400px) {
         .hero {
             &--title {
                 font-size: 5rem;
@@ -331,3 +357,4 @@
             }
         }
     }
+
