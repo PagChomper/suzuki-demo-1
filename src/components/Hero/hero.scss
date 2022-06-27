@@ -327,7 +327,7 @@
             }
 
             &-text-container {
-                top: 70vw;
+                top: 45%;
             }
         }
     }
@@ -342,18 +342,21 @@
                 transform: translateY(-5rem);
                 z-index: 500;
             }
+            &-text-container {
+                top: 28%;
+            }
         }
     }
 
 
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 375px) {
         .hero {
             &--title {
                 font-size: 5rem;
             }
 
             &-text-container {
-                top: 70vw;
+                top: 28%;
             }
         }
     }
