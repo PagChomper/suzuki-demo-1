@@ -25,7 +25,7 @@ export default function BeforeAfter() {
                     <div className="grid-picture before five"><img src={BathroomBefore} alt="" /></div>
                     <div className="grid-picture2 after two"><img src={ItabashiAfter} alt="" /></div>
                     <div className="grid-picture2 after four"><img src={KitchenAfter} alt="" /></div>
-                    <div className="grid-picture2 after six"><img src={BathroomAfter} alt="" /></div>
+                    <div className="grid-picture2 after six"><img src={BathroomAfter} alt="" className="img-fix" /></div>
             </div>
             <div className="before-after--arrow">
                 <div>

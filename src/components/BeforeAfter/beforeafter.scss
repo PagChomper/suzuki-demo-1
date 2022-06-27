@@ -7,6 +7,8 @@
     background: url(../../images/white-wall.jpg);
     position: relative;
 
+    
+
     .container {
         padding: 18rem 12rem 15.5rem 12rem;
     }
@@ -115,6 +117,10 @@
             object-fit: cover;
             border-radius: .3rem;
             box-sizing: border-box;
+        }
+
+        .img-fix {
+            object-position: 0rem;
         }
     }
 }
