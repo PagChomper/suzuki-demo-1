@@ -129,34 +129,36 @@
     }
 
     &--midangle {
-        margin: -30% 7%;
+        margin: -70vh 120vh;
         filter: saturate(200%);
         animation: float2 5s ease-in-out infinite;
         animation-delay: 0.7s60;
         position: absolute;
+        box-sizing: border-box;
     }
 
     @keyframes float2 {
         0% {
-            transform: translate(110rem, -7rem);
+            margin: -70vh 120vh;
         }
 
         50% {
-            transform: translate(106rem, -10rem);
+            margin: -71vh 118vh;
         }
 
         100% {
-            transform: translate(110rem, -7rem);
+            margin: -70vh 120vh;
         }
     }
 
-    // &--smangle {
-    //     filter: saturate(200%);
-    //     margin: -55vh 80vw;
-    //     position: absolute;
+    &--smangle {
+        filter: saturate(200%);
+        margin: -55vh 80vw;
+        position: absolute;
 
-    //     animation: float3 5s ease-in-out infinite;
-    // }
+        animation: float3 5s ease-in-out infinite;
+        display: none;
+    }
     // @keyframes float3 {
     //     0% {
     //         margin: -45% 85%;
@@ -279,3 +281,40 @@
         }
     }
 }
+
+@media screen and (max-width: 1360px) {
+    .hero {
+
+        &--bigangle {
+            position: absolute;
+        }
+    }
+}
+
+@media screen and (max-width: 1460px) {
+    .hero {
+
+            &--midangle {
+                margin: -70vh 110vh;
+                filter: saturate(200%);
+                animation: float2 5s ease-in-out infinite;
+                animation-delay: 0.7s60;
+                position: absolute;
+                box-sizing: border-box;
+            }
+        
+            @keyframes float2 {
+                0% {
+                    margin: -70vh 110vh;
+                }
+        
+                50% {
+                    margin: -71vh 112vh;
+                }
+        
+                100% {
+                    margin: -70vh 110vh;
+                }
+            }
+        }
+    }
