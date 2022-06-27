@@ -25,7 +25,7 @@ export default function Nav() {
                         <li className="nav--links--item">ギャラリー</li>
                         <a href="contact"><li className="nav--links--button">お問い合わせ</li></a>
             </div>
-            <div>
+            <div className="nav--mobile">
                 <img className="nav--menu" src={Menu} alt="" onClick={handleOpen}/>
                 {isOpen ? 
                 <div className="nav--overlay">

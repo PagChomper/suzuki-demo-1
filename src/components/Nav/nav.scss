@@ -14,6 +14,10 @@
     justify-content: space-between;
     align-items: center;
 
+    &--mobile {
+        display: none;
+    }
+
     &--menu {
         visibility: hidden;
     }
@@ -63,6 +67,10 @@
 
         .margin-fix {
             margin-top: -6rem;
+        }
+
+        &--mobile {
+            display: block;
         }
 
         .x-btn {

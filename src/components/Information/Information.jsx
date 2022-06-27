@@ -10,11 +10,12 @@ export default function Information(){
                     <h2>会 社 案 内 内 容
                         </h2>
                         <span>主な取引先</span><br></br>
-                        <p>一般顧客様、不動産業者様、設計事務所様、建設会社様</p>
+                        <p>一般顧客様、不動産業者様、<br></br>設計事務所様、建設会社様</p>
                         <span>会社のモットー</span>
                         <p>快適な住まいへの架け橋</p>
                         <span>保有資格</span>
-                        <p className="bitch-tile">1級施工管理、2級建築士、<br></br>玉掛け、木造立て方、<br></br>足場組み立て、フォークリフト運転免許</p>
+                        <p className="bitch-tile">1級施工管理、2級建築士、<br></br>木造立て方、足場組み立て、
+<br></br>玉掛け、フォークリフト運転免許</p>
                         </div>
                 <div className="information--grid--tile divider">
                     </div>
