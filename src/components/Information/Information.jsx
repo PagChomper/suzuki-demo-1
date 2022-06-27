@@ -26,13 +26,13 @@ export default function Information(){
                     <span>1994年</span>
                     <p>個人大工事業主として独立</p>
                     <span>2008年</span>
-                    <p>株式会社鈴木建築を資本金500万円で設立</p>
+                    <p className="nowrap smaller">株式会社鈴木建築を資本金500万円で設立</p>
                     <span>2009年</span>
                     <p>特許所得「かまち固定くん」</p>
                     <span>2018年</span>
                     <p>特許所得「かまち固定くん」</p>
                     <span>2020年</span>
-                    <p>本社建て替え SOHO DOUBLE SIX を竣工</p>
+                    <p className="nowrap smaller">本社建て替え SOHO DOUBLE SIX を竣工</p>
 
                     
                     </div>

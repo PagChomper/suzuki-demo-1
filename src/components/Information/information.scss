@@ -93,6 +93,10 @@
 @media screen and (max-width: 800px) {
     .information {
 
+        .smaller {
+            font-size: 1.5rem;
+        }
+
         .nowrap {
             white-space: nowrap;
         }

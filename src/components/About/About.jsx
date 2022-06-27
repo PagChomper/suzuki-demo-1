@@ -1,5 +1,6 @@
 import React from "react"
 import "./about.scss"
+import aboutimage from "../../images/about-image.JPG"
 
 
 export default function About() {
@@ -19,7 +20,12 @@ export default function About() {
                     <p>これからもお客様の希望をどんどんお聞きして一緒に人生で一番高い買い物にお付き合いさせて頂けると幸いです。</p>
                     </div>
                 
-                <div className="about--card--picture"><div className="about--card--picture--image"></div></div>
+                <div className="about--card--picture">
+                    <img src={aboutimage} alt="" className="about--card--picture--image"/>
+                    
+                    
+                    {/* <div className="about--card--picture--image"></div> */}
+                    </div>
                 
                 </div>
                 </div>
