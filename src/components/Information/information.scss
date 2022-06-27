@@ -4,6 +4,10 @@
 .information {
     overflow: hidden;
 
+    .nowrap {
+        white-space: nowrap;
+    }
+
     &--image {
         height: auto;
         // height: auto;
