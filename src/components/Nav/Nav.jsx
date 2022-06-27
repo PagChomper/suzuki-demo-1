@@ -30,7 +30,7 @@ export default function Nav() {
                 {isOpen ? 
                 <div className="nav--overlay">
                     <p className="x-btn" onClick={handleOpen}>X</p>
-                    <p className="margin-fix">ホーム</p>
+                    <a href="/"><p className="margin-fix">ホーム</p></a>
                     <p>特徴</p> 
                     <p>ギャラリー</p>
                     <a href="contact"><p className="nav--overlay-btn">お問い合わせ</p></a> 
