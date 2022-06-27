@@ -48,7 +48,7 @@ export default function Information(){
                     <span>代表取締役</span>
                     <p>鈴木 裕行</p>
                     <span>所在地</span>
-                    <p className="nowrap">266-0016 千葉県千葉市緑区椎名崎町1156-3 SOHO DOUBLE SIX ROOM 2</p>
+                    <p >266-0016 千葉県千葉市緑区椎名崎町1156-3 <span className="nowrap">SOHO DOUBLE SIX ROOM 2</span></p>
                     <span>設立</span>
                     <p>個人事業主1994年株式会社 2008年</p>
                     <span>連絡先</span>

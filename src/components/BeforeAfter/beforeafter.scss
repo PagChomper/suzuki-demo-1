@@ -190,3 +190,12 @@
         }
     }
 }
+
+@media screen and (max-width: 428px) {
+    .before-after {
+
+        &--title {
+            font-size: 3.6rem;
+        }
+    }
+}

@@ -6,6 +6,8 @@
 
     .nowrap {
         white-space: nowrap;
+        font-weight: 400;
+        color: #4E4E4E;
     }
 
     &--image {
@@ -80,12 +82,20 @@
         h2 {
             font-size: 2.5rem;
         }
+
+        .nowrap {
+            white-space: normal;
+        }
     }
 }
 
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 800px) {
     .information {
+
+        .nowrap {
+            white-space: nowrap;
+        }
         .divider {
             display: none;
         }

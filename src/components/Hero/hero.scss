@@ -12,7 +12,7 @@
     //    bottom: 5rem;
     //    left: 40%;
     align-items: center;
-    top: 31%;
+    top: 30%;
     }
 
     .flex-center {
@@ -315,6 +315,19 @@
                 100% {
                     margin: -70vh 110vh;
                 }
+            }
+        }
+    }
+
+
+    @media screen and (max-width: 350px) {
+        .hero {
+            &--title {
+                font-size: 5rem;
+            }
+
+            &-text-container {
+                top: 70vw;
             }
         }
     }
