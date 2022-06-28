@@ -183,6 +183,10 @@
 @media screen and (max-width: 600px) {
 
     .contact {
+
+        p {
+            font-size: 1.4rem;
+        }
         padding: 6.6rem 2rem;
         display: flex;
         justify-content: center;
@@ -200,9 +204,9 @@
                 grid-row: 1;
                 height: 20rem;
                 background-position: 0rem;
-                max-width: 24.1rem;
+                max-width: 28rem;
                 justify-self: center;
-                min-width: 24.1rem;
+                min-width: 28rem;
 
 
             }
@@ -220,11 +224,11 @@
                     border-bottom-left-radius: .5rem;
                     border-bottom-right-radius: .5rem;
                     padding: 6.6rem 2rem;
-                    max-width: 20rem;
+                    max-width: 24rem;
 
 
                     button {
-                        margin-left: auto;
+                        margin: 0 auto;
                         padding: 2rem 6rem;
                     }
                     
