@@ -4,7 +4,6 @@
 
 .contactbg {
     background: url(../../images/ContactBackground.jpg);
-    position: relative;
     background-repeat: no-repeat;
     background-size: cover;
     // filter: grayscale(50%);
@@ -43,7 +42,7 @@
 
         &--image {
             background: url(../../images/SDS.JPG);
-            width: 100%;
+            width: auto;
             height: 90rem;
             background-size: cover;
             background-position: -30rem;
@@ -61,6 +60,7 @@
             flex-direction: column;
             padding: 6.4rem 6.7rem;
             border-radius: .5rem;
+            width: auto;
 
             label {
                 font-size: 2.2rem;
