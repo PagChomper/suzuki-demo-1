@@ -184,6 +184,8 @@
 
     .contact {
         padding: 6.6rem 2rem;
+        display: flex;
+        justify-content: center;
         &--grid {
             grid-template-columns: 1fr;
             // grid-template-rows: 1fr 2fr;
@@ -198,13 +200,14 @@
                 grid-row: 1;
                 height: 20rem;
                 background-position: 0rem;
-                max-width: 100%;
+                max-width: 24.1rem;
 
             }
 
             &--form {
                 grid-row: 2;
                 // border-radius:  .5rem .5rem 0 0;
+                max-width: 30rem;
                 
 
                 form {
@@ -213,6 +216,7 @@
                     border-bottom-left-radius: .5rem;
                     border-bottom-right-radius: .5rem;
                     padding: 6.6rem 2rem;
+                    max-width: 20rem;
 
 
                     button {
@@ -237,11 +241,11 @@
         &--grid {
 
             &--form {
-                max-width: 100%;
+                max-width: 30rem;
             }
 
             &--image {
-                max-width: 100%;
+                max-width: 24.4;
             }
         }
     }
