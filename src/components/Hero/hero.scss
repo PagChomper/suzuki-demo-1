@@ -267,6 +267,10 @@
 @media screen and (max-width: 1460px) {
     .hero {
 
+        &-text-container {
+            top: 38%;
+        }
+
             &--midangle {
                 margin: -70vh 110vh;
                 filter: saturate(200%);
