@@ -14,7 +14,7 @@
 .contact {
 
     // background: url(../../images/ContactBackground.jpg);
-    position: relative;
+    // position: relative;
     padding: 0 6.6rem 23.2rem 6.6rem;
 
     // &::before {
@@ -69,9 +69,6 @@
                 margin-top: 4.4rem;
             }
 
-            input {
-                font-size: 2rem;
-            }
 
             .margin-silence {
                 margin-top: 0;
@@ -79,18 +76,22 @@
 
             .text-field {
                 height: 22rem;
+                width: auto;
             }
 
             input {
                 height: 7.7rem;
                 border: 1px solid #818181;
                 border-radius: 3px;
+                width: auto;
+                font-size: 2rem;
             }
 
             button {
-                display: flex;
-                position: relative;
+                // display: flex;
+                // position: relative;
                 z-index: 8;
+                width: auto;
 
                 // img {
                 //     position: absolute;
@@ -104,8 +105,8 @@
                 color: white;
                 background: $button-color;
                 border: none;
-                justify-content: center;
-                align-items: center;
+                // justify-content: center;
+                // align-items: center;
                 padding: 2.5rem;
                 border-radius: .5rem;
                 margin-left: auto;
@@ -188,6 +189,7 @@
             // grid-template-rows: 1fr 2fr;
             grid-auto-rows: auto;
             height: auto;
+            width: auto;
 
             &--image {
                 
