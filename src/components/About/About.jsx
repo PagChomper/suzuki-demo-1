@@ -7,6 +7,7 @@ export default function About() {
     return (
         <div className="about">
             <div className="container">
+                <div className="about--mobile-background"></div>
             <h2 className="about--title">鈴木建築の思</h2>
             <div className="about--card">
                 <div className="about--information">
@@ -15,7 +16,7 @@ export default function About() {
 注文住宅、文化住宅、こだわりの家など受注し、難しいことも常に努力し、失敗も経験に生かし常に前を向く姿勢をとっています。<br/>
                     </p>
                     <p>
-                    先人たちの築いてきた工法や思いを守り、末長く建築でお手伝いさせていただいています。作業員で終わらず今では珍しいお金にならない事、例えば研ぐ事、考える事などに沢山の経験を大事に現場に伝えています。作業員で終わらずお客様のよきパートナーとなるべく努力し邁進していく所存です。
+                    先人たちの築いてきた工法や思いを守り、末長く建築でお手伝いさせていただいています。作業員で終わらずお客様のよきパートナーとなるべく努力し邁進していく所存です。
                     </p>
                     <p>これからもお客様の希望をどんどんお聞きして一緒に人生で一番高い買い物にお付き合いさせて頂けると幸いです。</p>
                     </div>

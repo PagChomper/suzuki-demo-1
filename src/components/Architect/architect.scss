@@ -8,6 +8,10 @@
     position: relative;
     margin-bottom: -12rem;
 
+    .mobile {
+        display: none;
+    }
+
     .marquee {
         width: 100vw;
         z-index: -100;
@@ -128,9 +132,18 @@
 
 @media screen and (max-width: 478px) {
     .architech {
+        padding-top: 0;
+
+        .desktop {
+            display: none;
+        }
+
+        .mobile {
+            display:block;
+        }
 
         &--title {
-            font-size: 4rem;
+            font-size: 2rem;
             text-align: left;
             padding: 0;
         }
@@ -151,7 +164,7 @@
         &--title {
             text-align: center;
             margin: 0;
-            margin-bottom: -10rem;
+            margin-bottom: -6rem;
 
             &--bottom {
                 margin: 0;

@@ -30,7 +30,7 @@ export default function Information(){
                     <span>2009年</span>
                     <p>特許所得「かまち固定くん」</p>
                     <span>2018年</span>
-                    <p>特許所得「かまち固定くん」</p>
+                    <p>資本金を1000万円に増資</p>
                     <span>2020年</span>
                     <p className="nowrap smaller">本社建て替え SOHO DOUBLE SIX を竣工</p>
 

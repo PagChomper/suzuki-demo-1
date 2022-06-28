@@ -12,10 +12,13 @@ export default function Architech() {
     return (
         <div className="architech">
             <div className="container">
-            <div className="architech--title">
+            <div className="architech--title desktop">
                 <div className="architech--title--top">写真</div>
                 <div className="architech--title--bottom">ギャラリー</div>
-                </div>
+            </div>
+                <div className="architech--title mobile">
+                    <div className="architech--title--top">写真ギャラリー</div>
+                    </div>
                 </div>
 
                 <div className="marquee">

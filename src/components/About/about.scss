@@ -4,10 +4,11 @@
 .about {
 
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background: url(../../images/black-wall.jpg);
-    padding: 0 12rem 18rem 12rem;
+    background: url(../../images/ConstructionImage.JPG);
+    padding: 0 12rem 60rem 12rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -15rem;
 
     &--title {
         text-align: center;
@@ -16,14 +17,15 @@
         font-weight: 700;
         margin-top: 9.5rem;
         margin-bottom: 7.8rem;
+        position: relative;
+        background: rgba(0, 0, 0, 0.5);
     }
     &--card {
-        display: grid;
         background: #E7E7E7;
         // grid-template-columns: 2fr 1.4fr;
-        grid-template-columns: 2fr auto;
         // grid-template-rows: auto;
         height: auto;
+        max-width: 60rem;
 
 
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -33,6 +35,7 @@
         &--picture {
             // height: 100%;
             width: auto;
+            display: none;
             // background-size: cover;
             height: auto;
             &--image {
@@ -52,7 +55,7 @@
     
 
     &--information {
-        padding: 3.8rem 6.4rem 0 4.7rem;
+        padding: 3.8rem 6.4rem 3.8rem 4.7rem;
 
         h2 {
             font-size: 2.5rem;
@@ -107,31 +110,33 @@
 
 @media screen and (max-width: 1350px) {
     .about {
+
+        background-position-x: -25rem;
         &--card {
-            grid-template-rows: 20rem 2fr;
-            grid-template-columns: auto;
-            height: auto;
+            // grid-template-rows: 20rem 2fr;
+            // grid-template-columns: auto;
+            // height: auto;
             margin-bottom: 10.2rem;
             max-width: 60rem;
             // margin-right: 50%;
             // max-width: 50rem;
             // width: 100%;
 
-            &--picture {
-                grid-row: 1;
-                height: 20rem;
-                // width: 100%;
-                width: auto;
-                background-size: cover;
-            &--image {
-                        height: 100%;
-                        width: 100%;
-                        border-radius: .5rem .5rem 0 0;
-                        // background-size: cover;
-                        background-position: 0rem -8rem;
-                        margin-bottom: 0;
-                    }
-            }
+            // &--picture {
+            //     grid-row: 1;
+            //     height: 20rem;
+            //     // width: 100%;
+            //     width: auto;
+            //     background-size: cover;
+            // &--image {
+            //             height: 100%;
+            //             width: 100%;
+            //             border-radius: .5rem .5rem 0 0;
+            //             // background-size: cover;
+            //             background-position: 0rem -8rem;
+            //             margin-bottom: 0;
+            //         }
+            // }
         }
 
         
@@ -155,7 +160,15 @@
 @media screen and (max-width: 500px) {
     .about {
 
-        padding: 0 2rem 15.3rem;
+        background: none;
+        &--mobile-background {
+            background: url(../../images/ConstructionImage.JPG);
+            background-size: contain;
+            height: 100%;
+            width: 100%;
+        }
+
+        padding: 0 2rem 0rem;
 
         h2 {
             font-size: 3rem;
@@ -164,5 +177,41 @@
         p {
             font-size: 1.3rem;
         }
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .about {
+
+        &--mobile-background {
+            height: 29rem;
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .about {
+
+        &--mobile-background {
+            height: 25rem;
+        }
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .about {
+
+        &--mobile-background {
+            height: 24rem;
+}
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .about {
+
+        &--mobile-background {
+            height: 21rem;
+}
     }
 }
