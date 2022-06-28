@@ -5,17 +5,24 @@
 
     display: flex;
     background: url(../../images/ConstructionImage.JPG);
-    padding: 0 12rem 55rem 12rem;
+    padding: 0 12rem 10rem 12rem;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -30rem;
+    background-position-y: -60rem;
+    height: 120rem;
+
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
 
     &--title {
         text-align: center;
         color: white;
         font-size: 5rem;
         font-weight: 700;
-        margin-top: 36rem;
+        margin-top: 7.8rem;
         margin-bottom: 7.8rem;
         position: relative;
         background: rgba(0, 0, 0, 0.5);
@@ -108,11 +115,17 @@
 // }
 
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1500px) {
     .about {
 
         background-position-x: -25rem;
-        background-position-y: -40rem;
+        background-position-y: -44rem;
+        background-size: fill;
+
+
+        &--title {
+            margin-top: -12rem;
+        }
         &--card {
             // grid-template-rows: 20rem 2fr;
             // grid-template-columns: auto;
