@@ -4,14 +4,39 @@
 .about {
 
     display: flex;
-    background: url(../../images/ConstructionImage.JPG);
-    padding: 0 12rem 10rem 12rem;
+    background: url(../../images/ConstructionImageCropped.JPG);
+    padding: 15rem 12rem 15rem 12rem;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -60rem;
-    height: 120rem;
+    background-position-y: -120rem;
+    // background-position-x: -100rem;
+    height: auto;
+    // width: 150%;
+    overflow-x: hidden;
 
+    // &--background {
+    //     position: absolute;
+    //     // background: url(../../images/ConstructionImage.JPG);
+    //     // background-position-y: -40rem;
+    //     // background-position-x: 100%;
+    //     // transform: translate(-50% -70%);
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    //     height: 100%;
+    //     width: 100%;
+    //     z-index: -999;
+    //     overflow-y: hidden;
+    //     overflow-x: hidden;
+
+    //     img {
+    //         position: relative;
+    //         height:100%;
+    //         width: 200%;
+    //         object-position: -70rem;
+    //     }
+    // }
     .container {
+        // padding: 15rem 12rem 15rem 12rem;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -22,10 +47,10 @@
         color: white;
         font-size: 5rem;
         font-weight: 700;
-        margin-top: 7.8rem;
         margin-bottom: 7.8rem;
         position: relative;
         background: rgba(0, 0, 0, 0.5);
+        margin-top: 0;
     }
     &--card {
         background: #E7E7E7;
@@ -78,8 +103,8 @@
             margin-top: 0;
         }
     }
-}
 
+}
 
 // @media screen and (max-width: 1300px) {
 //     .about {
@@ -118,14 +143,12 @@
 @media screen and (max-width: 1500px) {
     .about {
 
-        background-position-x: -25rem;
-        background-position-y: -44rem;
-        background-size: fill;
+        background-position-x: 0;
+        background-position-y: 0;
+        background-size: cover;
+        height: 100%;
 
 
-        &--title {
-            margin-top: -12rem;
-        }
         &--card {
             // grid-template-rows: 20rem 2fr;
             // grid-template-columns: auto;

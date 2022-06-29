@@ -1,11 +1,15 @@
 import React from "react"
 import "./about.scss"
 import aboutimage from "../../images/about-image.JPG"
+import construction from "../../images/ConstructionImage.JPG"
 
 
 export default function About() {
     return (
         <div className="about">
+
+            {/* <div className="about--background"> <img src={construction} alt="" /></div> */}
+
             <div className="container">
                 <div className="about--mobile-background"></div>
             <h2 className="about--title">鈴木建築の思</h2>
