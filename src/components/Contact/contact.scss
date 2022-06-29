@@ -41,13 +41,18 @@
         column-gap: 11.3rem;
 
         &--image {
-            background: url(../../images/SDS.JPG);
-            width: auto;
-            height: 100%;
+            // background: url(../../images/SDS.JPG);
+            // width: auto;
+            // height: 100%;
             background-size: cover;
             background-position: -30rem;
             // min-width: 70rem;
             // max-width: 70rem;
+
+            img {
+                height: 100%;
+                width: 100%;
+            }
         }
         // img {
         //     width: 100%;
@@ -135,11 +140,20 @@
             grid-auto-rows: auto;
             height: auto;
             &--image {
+                            background: url(../../images/SDS.JPG);
+            width: auto;
+            height: 100%;
+            background-size: cover;
+            background-position: -30rem;
                 border-top-left-radius: .5rem;
                 border-top-right-radius: .5rem;
                 grid-row: 1;
                 height: 40rem;
                 background-position: 0rem;
+
+                img {
+                    display: none;
+                }
 
             }
     

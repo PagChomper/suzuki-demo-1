@@ -43,7 +43,7 @@ export default function Contact() {
                     </form>
                 </div>
                 <div className="contact--grid--image">
-                    {/* <img src={SDS} alt="" /> */}
+                    <img src={SDS} alt="" />
                 </div>
             </div>
             </div>
