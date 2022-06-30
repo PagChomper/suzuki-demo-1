@@ -203,9 +203,11 @@
 
         background: none;
         &--mobile-background {
-            background: url(../../images/ConstructionImage.JPG);
+            background: url(../../images/ConstructionImageCropped.JPG);
             background-size: cover;
             height: 29rem;
+            background-position-y: -14rem;
+            background-repeat: no-repeat;
         }
 
         padding: 0 2rem 0rem;
