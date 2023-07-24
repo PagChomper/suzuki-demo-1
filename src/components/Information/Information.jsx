@@ -31,7 +31,7 @@ export default function Information(){
                     <p>特許所得「かまち固定くん」</p>
                     <span>2018年</span>
                     <p>資本金を1000万円に増資</p>
-                    <span>2020年</span>
+                    <span>2023 新本社移転</span>
                     <p className="nowrap smaller">本社建て替え SOHO DOUBLE SIX を竣工</p>
 
                     
@@ -48,7 +48,7 @@ export default function Information(){
                     <span>代表取締役</span>
                     <p>鈴木 裕行</p>
                     <span>所在地</span>
-                    <p >266-0016 千葉県千葉市緑区椎名崎町1156-3 <span className="nowrap">SOHO DOUBLE SIX ROOM 2</span></p>
+                    <p>111-0055<span className="nowrap">東京都台東区三筋1丁目7番2-501号</span></p>
                     <span>設立</span>
                     <p>個人事業主1994年株式会社 2008年</p>
                     <span>連絡先</span>

@@ -14,13 +14,13 @@ export default function Footer() {
         <div className="footer--information">
             <div>
                 <img className="pin" src={pin} alt="" />
-                <p>266-0016<br></br>
-千葉県千葉市緑区椎名崎町1156-3 <br></br>
-SOHO DOUBLE SIX ROOM 2</p>
+                <p>111-0055<br></br>
+                東京都台東区三筋1丁目7番2-501号<br></br>
+</p>
             </div>
             <div>
                 <img className="phone" src={phone} alt="" />
-                <p>043-308-3484</p>
+                <p>03-6321-3606</p>
             </div>
             <div>
                 <img src={email} alt="" />

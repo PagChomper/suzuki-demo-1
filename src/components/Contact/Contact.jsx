@@ -1,7 +1,7 @@
 import React from "react"
 import "./contact.scss"
 import PaperAirplane from "../../images/Paper-Airplane.svg"
-import SDS from "../../images/SDS.JPG"
+import SDS from "../../images/SDS.png"
 import emailjs from "@emailjs/browser"
 import { useRef } from "react"
 
