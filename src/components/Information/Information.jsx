@@ -31,8 +31,8 @@ export default function Information(){
                     <p>特許所得「かまち固定くん」</p>
                     <span>2018年</span>
                     <p>資本金を1000万円に増資</p>
-                    <span>2023 新本社移転</span>
-                    <p className="nowrap smaller">本社建て替え SOHO DOUBLE SIX を竣工</p>
+                    <span>2023</span>
+                    <p className="nowrap smaller">新本社移転</p>
 
                     
                     </div>
